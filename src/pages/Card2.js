@@ -6,7 +6,7 @@ const Card2 = (props) => {
   const { img, title, text, tech, livePreview, viewCode } = props;
   return (
     <section className="flex flex-col border border-white bg-white rounded-xl w-[300px] mx-4 overflow-hidden">
-      <Image src={img} width={"180px"} />
+      <Image src={img} width={"180px"} alt="Camilla Sundbom" />
       <div className="px-4 pt-4 pb-5 text-sm">
         <h2 className="text-lg font-bold">{title}</h2>
         <p className="pt-2">{text}</p>
