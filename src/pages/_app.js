@@ -26,6 +26,14 @@ export default function App({ Component, pageProps }) {
           </li>
           <li>
             <Link
+              href="/About"
+              className={router.pathname === "/About" ? "text-[#e67a5f]" : ""}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
               href="/Projects"
               className={router.pathname === "/Projects" ? "text-[#e67a5f]" : ""}
             >
