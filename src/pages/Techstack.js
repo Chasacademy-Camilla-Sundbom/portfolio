@@ -6,6 +6,8 @@ import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import { SiTailwindcss } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiMui } from "react-icons/si";
 
 const Techstack = () => {
   return (
@@ -30,6 +32,7 @@ const Techstack = () => {
               title={"CSS"}
             />
           </div>
+
           <div>
             <Card
               icon={
@@ -42,6 +45,14 @@ const Techstack = () => {
                 />
               }
               title={"Javascript"}
+            />
+          </div>
+          <div>
+            <Card
+              icon={
+                <BiLogoTypescript style={{ color: "#171515", fontSize: "4em" }} />
+              }
+              title={"TypeScript"}
             />
           </div>
           <div>
@@ -83,6 +94,12 @@ const Techstack = () => {
             }
             title={"Github"}
           />
+          <div>
+            <Card
+              icon={<SiMui style={{ color: "#2965f1", fontSize: "3em" }} />}
+              title={"Mui"}
+            />
+          </div>
 
           <Card
             icon={<SiTailwindcss style={{ color: "#38bdf8", fontSize: "3em" }} />}

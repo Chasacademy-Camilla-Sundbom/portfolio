@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
           <li>
             <Link
               href="/"
-              className={router.pathname === "/" ? "text-[#e67a5f]" : ""}
+              className={router.pathname === "/" ? "text-[#5fe697]" : ""}
             >
               Home
             </Link>
@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
           <li>
             <Link
               href="/Techstack"
-              className={router.pathname === "/Techstack" ? "text-[#e67a5f]" : ""}
+              className={router.pathname === "/Techstack" ? "text-[#5fe697]" : ""}
             >
               Tech Stack
             </Link>
@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }) {
           <li>
             <Link
               href="/About"
-              className={router.pathname === "/About" ? "text-[#e67a5f]" : ""}
+              className={router.pathname === "/About" ? "text-[#5fe697]" : ""}
             >
               About
             </Link>
@@ -35,7 +35,7 @@ export default function App({ Component, pageProps }) {
           <li>
             <Link
               href="/Projects"
-              className={router.pathname === "/Projects" ? "text-[#e67a5f]" : ""}
+              className={router.pathname === "/Projects" ? "text-[#5fe697]" : ""}
             >
               Projects
             </Link>

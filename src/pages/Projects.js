@@ -5,7 +5,7 @@ import quizz from "../assets/quizz.png";
 
 const Projects = () => {
   return (
-    <div className="min-h-screen mt-10 md:mt-20">
+    <div className="min-h-screen mt-12 md:mt-24">
       <div className="flex flex-col justify-center items-center">
         <div className="text-lg md:text-3xl font-bold">My projects</div>
         <h1 className="text-sm md:text-2xl">

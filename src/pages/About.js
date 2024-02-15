@@ -17,7 +17,7 @@ const About = () => {
             target="_blank"
           >
             <div className="flex mr-4 gap-1 items-center">
-              <AiFillLinkedin />
+              <AiFillLinkedin className="icon" />
               My LinkedIn profile
             </div>
           </a>
@@ -27,7 +27,7 @@ const About = () => {
             target="_blank"
           >
             <div className="flex mr-4 gap-1 items-center">
-              <AiFillGithub />
+              <AiFillGithub className="icon" />
               My Github page
             </div>
           </a>
